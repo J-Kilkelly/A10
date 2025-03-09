@@ -2,7 +2,7 @@ namespace KilKellyJA10.AbstractClass;
 
 public abstract class Animal
 {
-    public string Name { get; set; }
+    public required string Name { get; set; }
     public abstract void MakeSound();
     public virtual void Eat()
     {
@@ -14,7 +14,7 @@ public class Giraffe : Animal
 {
     public override void MakeSound()
     {
-        Console.WriteLine("Grunt");
+        Console.WriteLine("This giraffe grunts.");
     }
 
     public override void Eat()
@@ -27,7 +27,7 @@ public class Seal : Animal
 {
     public override void MakeSound()
     {
-        Console.WriteLine("seal bark");
+        Console.WriteLine("This seal barks.");
     }
 
     public override void Eat()
@@ -42,3 +42,12 @@ public class Parrot : Animal
 
     public override void Eat() => Console.WriteLine("This parrot eats seeds.");
 }
+
+public class HighlandCow : Animal
+{
+    public override void MakeSound() => Console.WriteLine("This cow Moos.");
+
+    public override void Eat() => Console.WriteLine("This cow eats hay.");
+}
+
+
