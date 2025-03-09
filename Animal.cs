@@ -1,5 +1,10 @@
 namespace KilKellyJA10.AbstractClass;
 
+//John Kilkelly
+//ID: 380439
+//COP 2360
+//Assignment 10
+
 public abstract class Animal
 {
     public required string Name { get; set; }
