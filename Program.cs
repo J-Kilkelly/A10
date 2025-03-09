@@ -1,4 +1,8 @@
 ﻿using KilKellyJA10.AbstractClass;
+//John Kilkelly
+//ID: 380439
+//COP 2360
+//Assignment 10
 
 namespace KilkellyJA10;
 
